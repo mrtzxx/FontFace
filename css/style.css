@@ -1,7 +1,11 @@
 @import url('./_normalize.css');
-
+@import url('./var.css');
 header {
     padding: 13px 120px;
+}
+main {
+    padding: 0 120px;
+    padding-top: 70px;
 }
 header>div>span {
     font-family: "Tourney", sans-serif;   
@@ -26,4 +30,30 @@ header>div>span {
 }
 .menu_padding {
     padding: 0 10px;
+}
+.title {
+    position: relative;
+    font-family:"Francois One", sans-serif ;
+    font-size: 36px;     
+    font-weight: 400; 
+    text-transform: uppercase;
+}
+.title_top {
+    position: absolute;
+    text-transform:none;
+    top:-7px;    
+    font-family:"Farro", sans-serif ;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 5px;
+}
+.main_text {
+    font-family: "PT Sans", sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 48px;
+    color: var(--main-color);
+}
+.underline {
+    text-decoration: underline var(--main-color);
 }
